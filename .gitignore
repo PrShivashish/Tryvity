@@ -1,0 +1,29 @@
+# Chrome Extension
+*.pem
+*.crx
+
+# Icons (if using generated ones)
+# icons/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Environment and local configuration files
+.env
+config.local.js
+*.local.js
+

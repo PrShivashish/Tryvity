@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tryvity</title>
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=GageExo:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-content">
+          <div class="header-left">
+            <h1>Tryvity</h1>
+            <p class="subtitle">Virtual Try-On</p>
+          </div>
+          <div class="header-actions">
+            <button id="restart-btn" class="header-btn" title="Start Over">↻</button>
+            <button id="close-btn" class="header-btn" title="Close">×</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <div id="no-product" class="message">
+          <div class="upload-section">
+            <div class="upload-area" id="upload-area">
+              <div class="upload-icon">+</div>
+              <p>Upload your photo</p>
+              <small>Click to select an image</small>
+            </div>
+            <input type="file" id="photo-input" accept="image/*" style="display: none" />
+            <button id="continue-btn" class="continue-button" style="display: none">Continue</button>
+          </div>
+        </div>
+
+        <div id="product-display" class="product-card" style="display: none">
+          <h3>Selected Product</h3>
+
+          <!-- No Product Selected State -->
+          <div id="no-product-selected" class="no-product-state" style="display: none">
+            <div class="no-product-icon"></div>
+            <p class="no-product-message">Please click a product to select</p>
+            <small class="no-product-hint">Browse the website and click on any product to get started</small>
+          </div>
+
+          <!-- Product Display State -->
+          <div id="product-content" class="product-display" style="display: none">
+            <div class="image-container">
+              <img id="product-image" src="" alt="Product" class="product-image" />
+              <div id="loading-overlay" class="loading-overlay" style="display: none">
+                <div class="loading-spinner"></div>
+                <p>Processing</p>
+                <small>This may take 10-30 seconds</small>
+              </div>
+              <img id="result-image" src="" alt="Try-on result" class="product-image result-image" style="display: none" />
+            </div>
+            <div class="product-info">
+              <h2 id="product-name">Product Name</h2>
+              <a id="product-url" href="#" target="_blank" class="product-link">View Product →</a>
+            </div>
+          </div>
+
+          <div class="action-section">
+            <button id="try-on-btn" class="try-on-button" disabled>Try On</button>
+            <div class="result-actions" id="result-actions" style="display: none">
+              <button id="download-btn" class="icon-btn" title="Download">↓</button>
+              <button id="try-another-btn" class="icon-btn" title="Try Another">↻</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Try-on History Section -->
+      <div class="history-section" id="history-section" style="display: none">
+        <h3 class="history-title">Previous Try-ons</h3>
+        <div class="history-carousel">
+          <button class="history-scroll-left" id="scroll-left">‹</button>
+          <div class="history-track" id="history-track">
+            <!-- History items will be dynamically added here -->
+          </div>
+          <button class="history-scroll-right" id="scroll-right">›</button>
+        </div>
+      </div>
+
+      <footer>
+        <p class="version">v1.0.0</p>
+      </footer>
+    </div>
+
+    <script src="config.local.js"></script>
+    <script src="config.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
