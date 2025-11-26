@@ -10,6 +10,45 @@
 
 **Next-Generation AI-Powered Virtual Try-On Chrome Extension**
 
+## 🛠️ Technology Stack
+
+<div align="center">
+
+### Core Technologies
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
+
+### AI & APIs
+
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Google AI](https://img.shields.io/badge/Google%20AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+### Development Tools
+
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Chrome DevTools](https://img.shields.io/badge/Chrome%20DevTools-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
+
+### Browser APIs
+
+![Chrome Extensions](https://img.shields.io/badge/Chrome%20Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Manifest V3](https://img.shields.io/badge/Manifest%20V3-34A853?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Chrome Storage](https://img.shields.io/badge/Chrome%20Storage-FBBC04?style=for-the-badge&logo=googlechrome&logoColor=black)
+![Service Worker](https://img.shields.io/badge/Service%20Worker-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
+
+### Design & Fonts
+
+![Google Fonts](https://img.shields.io/badge/Google%20Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)
+![Flexbox](https://img.shields.io/badge/Flexbox-06B6D4?style=for-the-badge&logo=css3&logoColor=white)
+![CSS Grid](https://img.shields.io/badge/CSS%20Grid-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+</div>
+
 *Revolutionizing online shopping through intelligent computer vision and seamless UX*
 
 [Features](#-key-features) • [Demo](#-demo) • [Installation](#-installation) • [Architecture](#-technical-architecture) • [API Setup](#-api-configuration) • [Contributing](#-contributing)
